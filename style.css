@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+   letter-spacing: 1px;
 }
 
 body {
@@ -116,7 +117,6 @@ a {
 	align-items: center;
 
 	border-radius: 8px;
-	letter-spacing: 1px;
 	text-transform: uppercase;
 	background: #b9cae4;
 }
@@ -127,6 +127,37 @@ a {
 	border-radius: 16px;
 	text-align: justify;
 	font-size: 14px;
-	letter-spacing: 1px;
 	line-height: 140%;
+}
+
+.content{
+   background-color: white;
+   border-radius: 16px;
+   padding: 8px;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.education{
+   display: flex;
+   flex-direction: column;
+   padding: 16px;
+   gap: 16px;
+   background-color: #b9cae4;
+   border-radius: 16px;
+}
+
+.schools{
+   display: flex;
+   justify-content: space-between;
+   font-size: 14px;
+}
+
+.highSchool, .middleSchool{
+   width: 50%;
+}
+
+.highSchool p, .middleSchool p{
+   opacity: 70%;
 }
