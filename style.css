@@ -196,6 +196,11 @@ i{
    color: #414C74;
 }
 
+.wrapper{
+   display: flex;
+   gap: 16px;
+}
+
 .experience{
    border: 5px solid #b9cae4;
    border-radius: 16px;
@@ -211,5 +216,16 @@ i{
    flex-direction: column;
    font-size: 14px;
    gap: 16px;
+}
+
+.languages{
+   width: 50%;
+   padding: 16px;
+   font-size: 14px;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   border: 5px solid #b9cae4;
+   border-radius: 16px;
 }
 
