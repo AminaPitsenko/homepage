@@ -1,6 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+body {
+	font-family: Michroma;
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+.main{
+   background-color: #DEE9FF;
+   width: 60vw;
+   margin: 20px auto;
+   padding: 32px;
+   height: max-content;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: white;
+   padding: 16px 24px;
+   border-radius: 16px;
+   font-size: 11px;
+}
+
+.mail svg {
+   width: 14px;
+   height: 11px;
+}
+
+.phoneNum svg {
+   width: 12px;
+   height: 12px;
+}
+
+.adress svg {
+  width: 13px;
+   height: 12px;
+}
+
+.icon-box{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+  
+}
