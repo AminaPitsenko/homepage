@@ -229,3 +229,21 @@ i{
    border-radius: 16px;
 }
 
+.interests{
+   padding: 16px;
+   background-color:  #b9cae4;
+   border-radius: 16px;
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.list{
+   font-size: 14px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.list ul{
+   width: 50%;
+}
