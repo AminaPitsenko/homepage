@@ -12,49 +12,121 @@ body {
 	background-color: #fff;
 }
 
-.main{
-   background-color: #DEE9FF;
-   width: 60vw;
-   margin: 20px auto;
-   padding: 32px;
-   height: max-content;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.main {
+	background-color: #dee9ff;
+	width: 60vw;
+	display: flex;
+	flex-direction: column;
+	margin: 20px auto;
+	gap: 16px;
+	padding: 32px;
+	height: max-content;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   background-color: white;
-   padding: 16px 24px;
-   border-radius: 16px;
-   font-size: 11px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	padding: 16px 24px;
+	border-radius: 16px;
+	font-size: 11px;
+}
+
+.mail,
+.phoneNum,
+.adress {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 8px;
 }
 
 .mail svg {
-   width: 14px;
-   height: 11px;
+	width: 14px;
+	height: 11px;
 }
 
 .phoneNum svg {
-   width: 12px;
-   height: 12px;
+	width: 12px;
+	height: 12px;
 }
 
 .adress svg {
-  width: 13px;
-   height: 12px;
+	width: 13px;
+	height: 12px;
 }
 
-.icon-box{
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.icon-box {
+	height: 100%;
+	width: max-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 a {
-   text-decoration: none;
-   color: black;
-  
+	text-decoration: none;
+	color: black;
+}
+
+.headerBox {
+	display: flex;
+	padding: 16px;
+	background-color: white;
+	align-items: flex-start;
+	gap: 16px;
+	align-self: stretch;
+	border-radius: 16px;
+}
+
+.imageBox img {
+	width: 200px;
+	height: 195px;
+	border: 6px solid #b9cae4;
+	box-shadow: 0px 0px 0px 10px #b9cae4 inset;
+	border-radius: 24px;
+}
+
+.imageBox {
+	height: max-content;
+	width: max-content;
+}
+
+.sidePanel {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	flex: 1 0 0;
+	align-self: stretch;
+}
+
+.sidePanel h1 {
+	letter-spacing: 1.478px;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	display: flex;
+	padding: 8px 16px;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 8px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	background: #b9cae4;
+}
+
+.intro {
+	background-color: white;
+	padding: 16px;
+	border-radius: 16px;
+	text-align: justify;
+	font-size: 14px;
+	letter-spacing: 1px;
+	line-height: 140%;
 }
